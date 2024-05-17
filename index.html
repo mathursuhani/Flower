@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower</title>
+    <style>
+        #p{
+            width:600px;
+            height:600px;
+            
+            margin:auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .common{
+            width:300px;
+            height:300px;
+            position: absolute;
+        }
+
+        .blue{
+            background: rgb(220, 28, 73);
+            border-bottom-left-radius: 300px;
+            border-top-right-radius: 300px;
+            bottom:0px;
+            right:0px;
+        }
+
+        .green{
+            background: rgb(24, 134, 125);
+            border-top-left-radius: 300px ;
+            border-bottom-right-radius: 300px;
+            top: 0px;
+            right:0px;
+        }   
+
+        .yellow{
+            background: rgba(205, 164, 50, 0.875);
+            border-top-left-radius: 300px ;
+            border-bottom-right-radius: 300px;
+            bottom: 0px;
+            left:0px;   
+        }
+        .lavender{
+            background: rgb(122, 122, 203);
+            border-bottom-left-radius: 300px;
+            border-top-right-radius: 300px;
+            top:0px;
+            left:0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="p">
+        <div class="common c1 blue"></div>
+        <div class="common c2 green"></div>
+        <div class="common c3 yellow"></div>
+        <div class="common c4 lavender"></div>
+    </div>
+</body>
+</html>
